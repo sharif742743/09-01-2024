@@ -3,3 +3,101 @@
     padding: 0;
     box-sizing: border-box;
 }
+.bacground {
+    /* background-image: url("Sharif.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-right: 200px;
+    background-attachment: fixed; */
+
+    background: #ffffff url("Sharif.png") no-repeat right top;
+    margin-right: 200px;
+    
+}
+
+.shaif {
+    height: 200px; 
+    width: 200px;
+    /* outline-width: 4px;
+    outline-color: red;
+    outline-style: dotted; */
+    
+    outline: 4px dotted red;
+
+    outline-offset: 20px;
+    background-color: aqua;
+    margin-left: 200px; 
+    
+    padding: 50px;
+    margin: 50px;
+
+    border: 4px solid blue;
+    white-space: nowrap;
+    
+}
+ol {
+    background-color: aqua;
+    padding: 15px;
+}
+ol li {
+    margin-left: 50px;
+    background-color: aquamarine;
+    list-style-type: decimal;
+    padding: 5px;
+}
+ul {
+    background-color: deeppink;
+    padding: 15px;
+    list-style-type: square;
+}
+ul li {
+    margin-left: 40px;
+    padding: 10px;
+    background-color: plum;
+}
+table, th, td{
+    border-bottom: 1px solid #ddd;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+td {
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.main .div1 {
+    float: left;
+    border: 2px solid palevioletred;
+    padding: 10px;
+}
+.main .div2 {
+    
+    border: 4px solid yellow;
+    padding: 20px;
+}
+.main .div3 {
+    float: left;
+    border: 2px solid palevioletred;
+    padding: 10px;
+}
+.main .div4 {
+    clear: right;
+    border: 4px solid yellow;
+    padding: 20px;
+
+}
+.box {
+    width: 33.33%;
+    padding: 50px;
+    float: left;
+    text-align: center;
+}
+.box::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
